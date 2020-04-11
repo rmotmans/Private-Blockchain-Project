@@ -31,13 +31,13 @@ You should see in your terminal a message indicating that the server is listenin
 
 The application was tested using POSTMAN, this tool will help you to make the requests to the API.
 
-1. To make sure your application is working fine and it creates the Genesis Block you can use POSTMAN to request the Genesis block:
+1. To make sure the application is working fine and it creates the Genesis Block you can request the Genesis block:
     ![Request: http://localhost:8000/block/0 ](https://raw.githubusercontent.com/rmotmans/Private-Blockchain-Project/master/screenshots/genesisBlock.png)
     
 2. Make your first request of ownership sending your wallet address:
     ![Request: http://localhost:8000/requestValidation ](https://raw.githubusercontent.com/rmotmans/Private-Blockchain-Project/master/screenshots/requestValidation.png)
     
-3. Sign the message with your Wallet:
+3. Sign the message with your wallet, I used the the bitcoin core software and signed the message using the terminal:
     ![Use the Wallet to sign a message](https://raw.githubusercontent.com/rmotmans/Private-Blockchain-Project/master/screenshots/SignMessage.png)
     
 4. Submit your Star
