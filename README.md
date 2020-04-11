@@ -20,7 +20,9 @@ This application is part of the Udacity blockchain development nano degree.
 ## Set up/instructions
 
 -Clone/download this repository 
+
 -Run `npm install` in the project directory, this installs all dependencies 
+
 -Run your application using the command `node app.js`
 You should see in your terminal a message indicating that the server is listening in port 8000:
 > Server Listening for port: 8000
